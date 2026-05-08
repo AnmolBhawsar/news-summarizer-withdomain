@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Ai News Summarizer" },
+      { name: "description", content: "News Digest is a single-page web app that summarizes news from selected domains and emails it to you." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Ai News Summarizer" },
+      { property: "og:description", content: "News Digest is a single-page web app that summarizes news from selected domains and emails it to you." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Ai News Summarizer" },
+      { name: "twitter:description", content: "News Digest is a single-page web app that summarizes news from selected domains and emails it to you." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/de960ba6-4e47-4b4a-9394-08f859bad6a0/id-preview-c3626596--e154b64f-473a-4697-9696-a94d830d2971.lovable.app-1778213138352.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/de960ba6-4e47-4b4a-9394-08f859bad6a0/id-preview-c3626596--e154b64f-473a-4697-9696-a94d830d2971.lovable.app-1778213138352.png" },
     ],
     links: [
       {
