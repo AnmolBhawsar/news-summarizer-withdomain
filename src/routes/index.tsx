@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const WEBHOOK_URL = "https://nilyaaa.app.n8n.cloud/webhook-test/news-summarizer";
+const WEBHOOK_URL = "https://nilyaaa.app.n8n.cloud/webhook/news-summarizer";
 
 const DOMAIN_OPTIONS = [
   { label: "Technology", value: "technology" },
