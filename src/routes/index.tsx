@@ -114,9 +114,6 @@ function Index() {
     <div className="min-h-screen bg-background text-foreground">
       <main className="mx-auto flex max-w-2xl flex-col gap-8 px-4 py-12 md:py-20">
         <header className="space-y-3 text-center">
-          <span className="inline-block rounded-full border border-border bg-secondary px-3 py-1 text-xs font-medium text-secondary-foreground">
-            Powered by n8n + AI
-          </span>
           <h1 className="text-3xl font-bold tracking-tight md:text-4xl">News Summarizer</h1>
           <p className="text-sm text-muted-foreground md:text-base">
             Pick a topic and we'll email you an AI-summarized news digest.
